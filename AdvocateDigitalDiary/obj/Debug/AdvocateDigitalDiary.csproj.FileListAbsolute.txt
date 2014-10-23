@@ -1,0 +1,9 @@
+c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\bin\Debug\AdvocateDigitalDiary.exe.config
+c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\bin\Debug\AdvocateDigitalDiary.exe
+c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\bin\Debug\AdvocateDigitalDiary.pdb
+c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.csprojResolveAssemblyReference.cache
+c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmMain.resources
+c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.Properties.Resources.resources
+c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.csproj.GenerateResource.Cache
+c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.exe
+c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.pdb
