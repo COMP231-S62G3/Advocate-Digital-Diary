@@ -7,3 +7,13 @@ c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\Advoca
 c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.csproj.GenerateResource.Cache
 c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.exe
 c:\users\bijal\documents\visual studio 2012\Projects\AdvocateDigitalDiary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.pdb
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\bin\Debug\AdvocateDigitalDiary.exe.config
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.exe
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.pdb
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\bin\Debug\AdvocateDigitalDiary.exe
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\bin\Debug\AdvocateDigitalDiary.pdb
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.csprojResolveAssemblyReference.cache
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmCaseMaster.resources
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmMain.resources
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.Properties.Resources.resources
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.csproj.GenerateResource.Cache
