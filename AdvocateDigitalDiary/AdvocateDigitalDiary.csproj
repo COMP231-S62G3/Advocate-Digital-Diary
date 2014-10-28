@@ -44,11 +44,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCaseList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaseList.Designer.cs">
+      <DependentUpon>frmCaseList.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCaseMaster.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCaseMaster.Designer.cs">
       <DependentUpon>frmCaseMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCaseType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaseType.Designer.cs">
+      <DependentUpon>frmCaseType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCaseTypesList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaseTypesList.Designer.cs">
+      <DependentUpon>frmCaseTypesList.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -58,8 +76,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCaseList.resx">
+      <DependentUpon>frmCaseList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCaseMaster.resx">
       <DependentUpon>frmCaseMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCaseType.resx">
+      <DependentUpon>frmCaseType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCaseTypesList.resx">
+      <DependentUpon>frmCaseTypesList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
