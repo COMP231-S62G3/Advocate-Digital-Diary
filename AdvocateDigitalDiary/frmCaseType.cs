@@ -16,5 +16,10 @@ namespace AdvocateDigitalDiary
         {
             InitializeComponent();
         }
+
+        private void frmCaseType_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

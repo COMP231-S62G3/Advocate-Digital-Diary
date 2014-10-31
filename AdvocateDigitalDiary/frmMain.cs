@@ -140,5 +140,50 @@ namespace AdvocateDigitalDiary
             
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void TSJudges_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TSCourts_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TSCaseType_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TSActs_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TSReports_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TSUser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

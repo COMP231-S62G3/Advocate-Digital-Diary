@@ -17,3 +17,8 @@ C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\
 C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmMain.resources
 C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.Properties.Resources.resources
 C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.csproj.GenerateResource.Cache
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmCaseList.resources
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmCaseType.resources
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmCaseTypesList.resources
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmJudge.resources
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmJudgesList.resources

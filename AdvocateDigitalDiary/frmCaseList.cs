@@ -51,5 +51,10 @@ namespace AdvocateDigitalDiary
         {
 
         }
+
+        private void frmCaseList_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

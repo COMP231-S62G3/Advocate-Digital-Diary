@@ -131,6 +131,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmCaseType";
             this.Text = "Case Type";
+            this.Load += new System.EventHandler(this.frmCaseType_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
