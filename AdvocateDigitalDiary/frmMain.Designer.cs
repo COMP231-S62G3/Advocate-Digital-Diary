@@ -71,9 +71,10 @@
             // btnLogin
             // 
             this.btnLogin.Image = ((System.Drawing.Image)(resources.GetObject("btnLogin.Image")));
-            this.btnLogin.Location = new System.Drawing.Point(12, 36);
+            this.btnLogin.Location = new System.Drawing.Point(16, 44);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(93, 89);
+            this.btnLogin.Size = new System.Drawing.Size(124, 110);
             this.btnLogin.TabIndex = 7;
             this.btnLogin.Text = "Login";
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -83,9 +84,10 @@
             // btnLogout
             // 
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
-            this.btnLogout.Location = new System.Drawing.Point(359, 36);
+            this.btnLogout.Location = new System.Drawing.Point(479, 44);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(93, 89);
+            this.btnLogout.Size = new System.Drawing.Size(124, 110);
             this.btnLogout.TabIndex = 8;
             this.btnLogout.Text = "Logout";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -99,14 +101,15 @@
             this.TSShowJudge});
             this.TSJudges.Image = ((System.Drawing.Image)(resources.GetObject("TSJudges.Image")));
             this.TSJudges.Name = "TSJudges";
-            this.TSJudges.Size = new System.Drawing.Size(76, 20);
+            this.TSJudges.Size = new System.Drawing.Size(87, 24);
             this.TSJudges.Text = "&Judge";
+            this.TSJudges.Click += new System.EventHandler(this.TSJudges_Click);
             // 
             // TSAddJudge
             // 
             this.TSAddJudge.Image = ((System.Drawing.Image)(resources.GetObject("TSAddJudge.Image")));
             this.TSAddJudge.Name = "TSAddJudge";
-            this.TSAddJudge.Size = new System.Drawing.Size(140, 22);
+            this.TSAddJudge.Size = new System.Drawing.Size(158, 24);
             this.TSAddJudge.Text = "&Add";
             this.TSAddJudge.Click += new System.EventHandler(this.TSAddJudge_Click);
             // 
@@ -114,7 +117,7 @@
             // 
             this.TSShowJudge.Image = ((System.Drawing.Image)(resources.GetObject("TSShowJudge.Image")));
             this.TSShowJudge.Name = "TSShowJudge";
-            this.TSShowJudge.Size = new System.Drawing.Size(140, 22);
+            this.TSShowJudge.Size = new System.Drawing.Size(158, 24);
             this.TSShowJudge.Text = "List All";
             this.TSShowJudge.Click += new System.EventHandler(this.TSShowJudge_Click);
             // 
@@ -125,14 +128,15 @@
             this.TSShowCourt});
             this.TSCourts.Image = ((System.Drawing.Image)(resources.GetObject("TSCourts.Image")));
             this.TSCourts.Name = "TSCourts";
-            this.TSCourts.Size = new System.Drawing.Size(76, 20);
+            this.TSCourts.Size = new System.Drawing.Size(87, 24);
             this.TSCourts.Text = "&Court";
+            this.TSCourts.Click += new System.EventHandler(this.TSCourts_Click);
             // 
             // TSAddCourt
             // 
             this.TSAddCourt.Image = ((System.Drawing.Image)(resources.GetObject("TSAddCourt.Image")));
             this.TSAddCourt.Name = "TSAddCourt";
-            this.TSAddCourt.Size = new System.Drawing.Size(140, 22);
+            this.TSAddCourt.Size = new System.Drawing.Size(158, 24);
             this.TSAddCourt.Text = "&Add";
             this.TSAddCourt.Click += new System.EventHandler(this.TSAddCourt_Click);
             // 
@@ -140,7 +144,7 @@
             // 
             this.TSShowCourt.Image = ((System.Drawing.Image)(resources.GetObject("TSShowCourt.Image")));
             this.TSShowCourt.Name = "TSShowCourt";
-            this.TSShowCourt.Size = new System.Drawing.Size(140, 22);
+            this.TSShowCourt.Size = new System.Drawing.Size(158, 24);
             this.TSShowCourt.Text = "List All";
             this.TSShowCourt.Click += new System.EventHandler(this.TSShowCourt_Click);
             // 
@@ -151,14 +155,15 @@
             this.TSShowCaseType});
             this.TSCaseType.Image = ((System.Drawing.Image)(resources.GetObject("TSCaseType.Image")));
             this.TSCaseType.Name = "TSCaseType";
-            this.TSCaseType.Size = new System.Drawing.Size(108, 20);
+            this.TSCaseType.Size = new System.Drawing.Size(127, 24);
             this.TSCaseType.Text = "Case &Type";
+            this.TSCaseType.Click += new System.EventHandler(this.TSCaseType_Click);
             // 
             // TSAddCaseType
             // 
             this.TSAddCaseType.Image = ((System.Drawing.Image)(resources.GetObject("TSAddCaseType.Image")));
             this.TSAddCaseType.Name = "TSAddCaseType";
-            this.TSAddCaseType.Size = new System.Drawing.Size(140, 22);
+            this.TSAddCaseType.Size = new System.Drawing.Size(158, 24);
             this.TSAddCaseType.Text = "&Add";
             this.TSAddCaseType.Click += new System.EventHandler(this.TSAddCaseType_Click);
             // 
@@ -166,7 +171,7 @@
             // 
             this.TSShowCaseType.Image = ((System.Drawing.Image)(resources.GetObject("TSShowCaseType.Image")));
             this.TSShowCaseType.Name = "TSShowCaseType";
-            this.TSShowCaseType.Size = new System.Drawing.Size(140, 22);
+            this.TSShowCaseType.Size = new System.Drawing.Size(158, 24);
             this.TSShowCaseType.Text = "List All";
             this.TSShowCaseType.Click += new System.EventHandler(this.TSShowCaseType_Click);
             // 
@@ -177,14 +182,15 @@
             this.TSShowActs});
             this.TSActs.Image = ((System.Drawing.Image)(resources.GetObject("TSActs.Image")));
             this.TSActs.Name = "TSActs";
-            this.TSActs.Size = new System.Drawing.Size(68, 20);
+            this.TSActs.Size = new System.Drawing.Size(77, 24);
             this.TSActs.Text = "&Acts";
+            this.TSActs.Click += new System.EventHandler(this.TSActs_Click);
             // 
             // TSAddAct
             // 
             this.TSAddAct.Image = ((System.Drawing.Image)(resources.GetObject("TSAddAct.Image")));
             this.TSAddAct.Name = "TSAddAct";
-            this.TSAddAct.Size = new System.Drawing.Size(140, 22);
+            this.TSAddAct.Size = new System.Drawing.Size(158, 24);
             this.TSAddAct.Text = "&Add";
             this.TSAddAct.Click += new System.EventHandler(this.TSAddAct_Click);
             // 
@@ -192,7 +198,7 @@
             // 
             this.TSShowActs.Image = ((System.Drawing.Image)(resources.GetObject("TSShowActs.Image")));
             this.TSShowActs.Name = "TSShowActs";
-            this.TSShowActs.Size = new System.Drawing.Size(140, 22);
+            this.TSShowActs.Size = new System.Drawing.Size(158, 24);
             this.TSShowActs.Text = "List All";
             this.TSShowActs.Click += new System.EventHandler(this.TSShowActs_Click);
             // 
@@ -208,14 +214,15 @@
             this.caseTypesToolStripMenuItem});
             this.TSReports.Image = ((System.Drawing.Image)(resources.GetObject("TSReports.Image")));
             this.TSReports.Name = "TSReports";
-            this.TSReports.Size = new System.Drawing.Size(92, 20);
+            this.TSReports.Size = new System.Drawing.Size(107, 24);
             this.TSReports.Text = "Reports";
+            this.TSReports.Click += new System.EventHandler(this.TSReports_Click);
             // 
             // aToolStripMenuItem
             // 
             this.aToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("aToolStripMenuItem.Image")));
             this.aToolStripMenuItem.Name = "aToolStripMenuItem";
-            this.aToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.aToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.aToolStripMenuItem.Text = "Judges";
             this.aToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItem_Click);
             // 
@@ -223,33 +230,33 @@
             // 
             this.showAllToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("showAllToolStripMenuItem.Image")));
             this.showAllToolStripMenuItem.Name = "showAllToolStripMenuItem";
-            this.showAllToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.showAllToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.showAllToolStripMenuItem.Text = "Courts";
             this.showAllToolStripMenuItem.Click += new System.EventHandler(this.showAllToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(153, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(175, 6);
             // 
             // reportToolStripMenuItem4
             // 
             this.reportToolStripMenuItem4.Image = ((System.Drawing.Image)(resources.GetObject("reportToolStripMenuItem4.Image")));
             this.reportToolStripMenuItem4.Name = "reportToolStripMenuItem4";
-            this.reportToolStripMenuItem4.Size = new System.Drawing.Size(156, 22);
+            this.reportToolStripMenuItem4.Size = new System.Drawing.Size(178, 24);
             this.reportToolStripMenuItem4.Text = "Case";
             this.reportToolStripMenuItem4.Click += new System.EventHandler(this.reportToolStripMenuItem4_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(153, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(175, 6);
             // 
             // actsToolStripMenuItem
             // 
             this.actsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("actsToolStripMenuItem.Image")));
             this.actsToolStripMenuItem.Name = "actsToolStripMenuItem";
-            this.actsToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.actsToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.actsToolStripMenuItem.Text = "Acts";
             this.actsToolStripMenuItem.Click += new System.EventHandler(this.actsToolStripMenuItem_Click_1);
             // 
@@ -257,7 +264,7 @@
             // 
             this.caseTypesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("caseTypesToolStripMenuItem.Image")));
             this.caseTypesToolStripMenuItem.Name = "caseTypesToolStripMenuItem";
-            this.caseTypesToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.caseTypesToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.caseTypesToolStripMenuItem.Text = "Case Types";
             this.caseTypesToolStripMenuItem.Click += new System.EventHandler(this.caseTypesToolStripMenuItem_Click);
             // 
@@ -269,27 +276,28 @@
             this.databaseConfigurationToolStripMenuItem});
             this.TSUser.Image = ((System.Drawing.Image)(resources.GetObject("TSUser.Image")));
             this.TSUser.Name = "TSUser";
-            this.TSUser.Size = new System.Drawing.Size(140, 20);
+            this.TSUser.Size = new System.Drawing.Size(167, 24);
             this.TSUser.Text = "User Settings";
+            this.TSUser.Click += new System.EventHandler(this.TSUser_Click);
             // 
             // addUserToolStripMenuItem
             // 
             this.addUserToolStripMenuItem.Name = "addUserToolStripMenuItem";
-            this.addUserToolStripMenuItem.Size = new System.Drawing.Size(252, 22);
+            this.addUserToolStripMenuItem.Size = new System.Drawing.Size(298, 24);
             this.addUserToolStripMenuItem.Text = "Add User";
             this.addUserToolStripMenuItem.Click += new System.EventHandler(this.addUserToolStripMenuItem_Click);
             // 
             // userListToolStripMenuItem
             // 
             this.userListToolStripMenuItem.Name = "userListToolStripMenuItem";
-            this.userListToolStripMenuItem.Size = new System.Drawing.Size(252, 22);
+            this.userListToolStripMenuItem.Size = new System.Drawing.Size(298, 24);
             this.userListToolStripMenuItem.Text = "User List";
             this.userListToolStripMenuItem.Click += new System.EventHandler(this.userListToolStripMenuItem_Click);
             // 
             // databaseConfigurationToolStripMenuItem
             // 
             this.databaseConfigurationToolStripMenuItem.Name = "databaseConfigurationToolStripMenuItem";
-            this.databaseConfigurationToolStripMenuItem.Size = new System.Drawing.Size(252, 22);
+            this.databaseConfigurationToolStripMenuItem.Size = new System.Drawing.Size(298, 24);
             this.databaseConfigurationToolStripMenuItem.Text = "Database Configuration";
             this.databaseConfigurationToolStripMenuItem.Click += new System.EventHandler(this.databaseConfigurationToolStripMenuItem_Click);
             // 
@@ -307,16 +315,18 @@
             this.MSAdvocate.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.MSAdvocate.Location = new System.Drawing.Point(0, 0);
             this.MSAdvocate.Name = "MSAdvocate";
-            this.MSAdvocate.Size = new System.Drawing.Size(579, 24);
+            this.MSAdvocate.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.MSAdvocate.Size = new System.Drawing.Size(772, 28);
             this.MSAdvocate.TabIndex = 6;
             this.MSAdvocate.Text = "menuStrip2";
             // 
             // btnAddCase
             // 
             this.btnAddCase.Image = ((System.Drawing.Image)(resources.GetObject("btnAddCase.Image")));
-            this.btnAddCase.Location = new System.Drawing.Point(127, 36);
+            this.btnAddCase.Location = new System.Drawing.Point(169, 44);
+            this.btnAddCase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddCase.Name = "btnAddCase";
-            this.btnAddCase.Size = new System.Drawing.Size(93, 89);
+            this.btnAddCase.Size = new System.Drawing.Size(124, 110);
             this.btnAddCase.TabIndex = 9;
             this.btnAddCase.Text = "Add New Case";
             this.btnAddCase.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -326,9 +336,10 @@
             // btnListCase
             // 
             this.btnListCase.Image = ((System.Drawing.Image)(resources.GetObject("btnListCase.Image")));
-            this.btnListCase.Location = new System.Drawing.Point(242, 36);
+            this.btnListCase.Location = new System.Drawing.Point(323, 44);
+            this.btnListCase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnListCase.Name = "btnListCase";
-            this.btnListCase.Size = new System.Drawing.Size(93, 89);
+            this.btnListCase.Size = new System.Drawing.Size(124, 110);
             this.btnListCase.TabIndex = 10;
             this.btnListCase.Text = "List All Cases";
             this.btnListCase.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -339,16 +350,18 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ssl});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 304);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 376);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(579, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(772, 25);
             this.statusStrip1.TabIndex = 12;
             this.statusStrip1.Text = "statusStrip1";
+            this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
             // 
             // ssl
             // 
             this.ssl.Name = "ssl";
-            this.ssl.Size = new System.Drawing.Size(16, 17);
+            this.ssl.Size = new System.Drawing.Size(18, 20);
             this.ssl.Text = "...";
             // 
             // btnExit
@@ -358,9 +371,10 @@
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
-            this.btnExit.Location = new System.Drawing.Point(472, 36);
+            this.btnExit.Location = new System.Drawing.Point(629, 44);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(93, 89);
+            this.btnExit.Size = new System.Drawing.Size(124, 110);
             this.btnExit.TabIndex = 13;
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -372,32 +386,36 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Enabled = false;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 151);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 186);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(553, 136);
+            this.dataGridView1.Size = new System.Drawing.Size(737, 167);
             this.dataGridView1.TabIndex = 14;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 132);
+            this.label1.Location = new System.Drawing.Point(17, 162);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 13);
+            this.label1.Size = new System.Drawing.Size(149, 15);
             this.label1.TabIndex = 15;
             this.label1.Text = "Upcoming Case Dates";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmMain
             // 
             this.AcceptButton = this.btnLogin;
             this.AccessibleDescription = "";
             this.AccessibleName = "";
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(579, 326);
+            this.ClientSize = new System.Drawing.Size(772, 401);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnExit);
@@ -408,7 +426,7 @@
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.MSAdvocate);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMain";

@@ -17,6 +17,7 @@ namespace AdvocateDigitalDiary
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void txtCaseTypeName_TextChanged(object sender, EventArgs e)
         {
 
@@ -48,6 +49,9 @@ namespace AdvocateDigitalDiary
         }
 
         private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+=======
+        private void frmCaseType_Load(object sender, EventArgs e)
+>>>>>>> origin/Design-Master-page
         {
 
         }

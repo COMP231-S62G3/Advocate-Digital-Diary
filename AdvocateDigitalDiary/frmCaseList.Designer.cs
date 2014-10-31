@@ -60,19 +60,19 @@
             // hearingDatesToolStripMenuItem3
             // 
             this.hearingDatesToolStripMenuItem3.Name = "hearingDatesToolStripMenuItem3";
-            this.hearingDatesToolStripMenuItem3.Size = new System.Drawing.Size(165, 24);
+            this.hearingDatesToolStripMenuItem3.Size = new System.Drawing.Size(188, 28);
             this.hearingDatesToolStripMenuItem3.Text = "Hearing Dates";
             // 
             // paymentsToolStripMenuItem2
             // 
             this.paymentsToolStripMenuItem2.Name = "paymentsToolStripMenuItem2";
-            this.paymentsToolStripMenuItem2.Size = new System.Drawing.Size(165, 24);
+            this.paymentsToolStripMenuItem2.Size = new System.Drawing.Size(188, 28);
             this.paymentsToolStripMenuItem2.Text = "Payments";
             // 
             // witnessesToolStripMenuItem2
             // 
             this.witnessesToolStripMenuItem2.Name = "witnessesToolStripMenuItem2";
-            this.witnessesToolStripMenuItem2.Size = new System.Drawing.Size(165, 24);
+            this.witnessesToolStripMenuItem2.Size = new System.Drawing.Size(188, 28);
             this.witnessesToolStripMenuItem2.Text = "Witnesses";
             // 
             // reportsToolStripMenuItem
@@ -83,38 +83,38 @@
             this.documentsToolStripMenuItem2,
             this.hearingDatesToolStripMenuItem3});
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
-            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(68, 23);
+            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(80, 27);
             this.reportsToolStripMenuItem.Text = "&Reports";
             this.reportsToolStripMenuItem.Click += new System.EventHandler(this.reportsToolStripMenuItem_Click);
             // 
             // documentsToolStripMenuItem2
             // 
             this.documentsToolStripMenuItem2.Name = "documentsToolStripMenuItem2";
-            this.documentsToolStripMenuItem2.Size = new System.Drawing.Size(165, 24);
+            this.documentsToolStripMenuItem2.Size = new System.Drawing.Size(188, 28);
             this.documentsToolStripMenuItem2.Text = "Documents";
             // 
             // documentsToolStripMenuItem
             // 
             this.documentsToolStripMenuItem.Name = "documentsToolStripMenuItem";
-            this.documentsToolStripMenuItem.Size = new System.Drawing.Size(165, 24);
+            this.documentsToolStripMenuItem.Size = new System.Drawing.Size(188, 28);
             this.documentsToolStripMenuItem.Text = "&Documents";
             // 
             // paymentsToolStripMenuItem
             // 
             this.paymentsToolStripMenuItem.Name = "paymentsToolStripMenuItem";
-            this.paymentsToolStripMenuItem.Size = new System.Drawing.Size(165, 24);
+            this.paymentsToolStripMenuItem.Size = new System.Drawing.Size(188, 28);
             this.paymentsToolStripMenuItem.Text = "&Payments";
             // 
             // witnessesToolStripMenuItem
             // 
             this.witnessesToolStripMenuItem.Name = "witnessesToolStripMenuItem";
-            this.witnessesToolStripMenuItem.Size = new System.Drawing.Size(165, 24);
+            this.witnessesToolStripMenuItem.Size = new System.Drawing.Size(188, 28);
             this.witnessesToolStripMenuItem.Text = "&Witnesses";
             // 
             // hearingDatesToolStripMenuItem1
             // 
             this.hearingDatesToolStripMenuItem1.Name = "hearingDatesToolStripMenuItem1";
-            this.hearingDatesToolStripMenuItem1.Size = new System.Drawing.Size(165, 24);
+            this.hearingDatesToolStripMenuItem1.Size = new System.Drawing.Size(188, 28);
             this.hearingDatesToolStripMenuItem1.Text = "&Hearing Dates";
             // 
             // hearingDatesToolStripMenuItem
@@ -125,7 +125,7 @@
             this.paymentsToolStripMenuItem,
             this.documentsToolStripMenuItem});
             this.hearingDatesToolStripMenuItem.Name = "hearingDatesToolStripMenuItem";
-            this.hearingDatesToolStripMenuItem.Size = new System.Drawing.Size(62, 23);
+            this.hearingDatesToolStripMenuItem.Size = new System.Drawing.Size(73, 27);
             this.hearingDatesToolStripMenuItem.Text = "&Details";
             this.hearingDatesToolStripMenuItem.Click += new System.EventHandler(this.hearingDatesToolStripMenuItem_Click);
             // 
@@ -138,7 +138,12 @@
             this.reportsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+<<<<<<< HEAD
             this.menuStrip1.Size = new System.Drawing.Size(637, 27);
+=======
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1160, 31);
+>>>>>>> origin/Design-Master-page
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -146,25 +151,33 @@
             // ssCaseList
             // 
             this.ssCaseList.Name = "ssCaseList";
-            this.ssCaseList.Size = new System.Drawing.Size(19, 17);
+            this.ssCaseList.Size = new System.Drawing.Size(21, 20);
             this.ssCaseList.Text = "....";
             // 
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ssCaseList});
+<<<<<<< HEAD
             this.statusStrip1.Location = new System.Drawing.Point(0, 361);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(637, 22);
+=======
+            this.statusStrip1.Location = new System.Drawing.Point(0, 569);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1160, 25);
+>>>>>>> origin/Design-Master-page
             this.statusStrip1.TabIndex = 10;
             this.statusStrip1.Text = "statusStrip1";
             this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(481, 312);
+            this.btnClose.Location = new System.Drawing.Point(641, 384);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(100, 28);
             this.btnClose.TabIndex = 9;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -172,9 +185,10 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(400, 312);
+            this.btnDelete.Location = new System.Drawing.Point(533, 384);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(100, 28);
             this.btnDelete.TabIndex = 8;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -182,9 +196,10 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(319, 312);
+            this.btnEdit.Location = new System.Drawing.Point(425, 384);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit.Size = new System.Drawing.Size(100, 28);
             this.btnEdit.TabIndex = 7;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
@@ -193,25 +208,25 @@
             // paymentsToolStripMenuItem1
             // 
             this.paymentsToolStripMenuItem1.Name = "paymentsToolStripMenuItem1";
-            this.paymentsToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.paymentsToolStripMenuItem1.Size = new System.Drawing.Size(173, 24);
             this.paymentsToolStripMenuItem1.Text = "Payments";
             // 
             // documentsToolStripMenuItem1
             // 
             this.documentsToolStripMenuItem1.Name = "documentsToolStripMenuItem1";
-            this.documentsToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.documentsToolStripMenuItem1.Size = new System.Drawing.Size(173, 24);
             this.documentsToolStripMenuItem1.Text = "Documents";
             // 
             // witnessesToolStripMenuItem1
             // 
             this.witnessesToolStripMenuItem1.Name = "witnessesToolStripMenuItem1";
-            this.witnessesToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.witnessesToolStripMenuItem1.Size = new System.Drawing.Size(173, 24);
             this.witnessesToolStripMenuItem1.Text = "Witnesses";
             // 
             // hearingDatesToolStripMenuItem2
             // 
             this.hearingDatesToolStripMenuItem2.Name = "hearingDatesToolStripMenuItem2";
-            this.hearingDatesToolStripMenuItem2.Size = new System.Drawing.Size(148, 22);
+            this.hearingDatesToolStripMenuItem2.Size = new System.Drawing.Size(173, 24);
             this.hearingDatesToolStripMenuItem2.Text = "Hearing Dates";
             // 
             // contextMenuStrip1
@@ -222,7 +237,7 @@
             this.documentsToolStripMenuItem1,
             this.paymentsToolStripMenuItem1});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(149, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(174, 100);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // dgvCaseList
@@ -232,27 +247,38 @@
             this.dgvCaseList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCaseList.ContextMenuStrip = this.contextMenuStrip1;
             this.dgvCaseList.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgvCaseList.Location = new System.Drawing.Point(11, 39);
+            this.dgvCaseList.Location = new System.Drawing.Point(15, 48);
+            this.dgvCaseList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvCaseList.MultiSelect = false;
             this.dgvCaseList.Name = "dgvCaseList";
             this.dgvCaseList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvCaseList.Size = new System.Drawing.Size(545, 267);
+            this.dgvCaseList.Size = new System.Drawing.Size(727, 329);
             this.dgvCaseList.TabIndex = 6;
             this.dgvCaseList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCaseList_CellContentClick);
             // 
             // frmCaseList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(637, 383);
+=======
+            this.ClientSize = new System.Drawing.Size(1160, 594);
+>>>>>>> origin/Design-Master-page
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.dgvCaseList);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmCaseList";
+<<<<<<< HEAD
             this.Text = "Case List";
+=======
+            this.Text = "Cases";
+            this.Load += new System.EventHandler(this.frmCaseList_Load);
+>>>>>>> origin/Design-Master-page
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
