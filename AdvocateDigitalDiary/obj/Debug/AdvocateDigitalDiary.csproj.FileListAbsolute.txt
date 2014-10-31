@@ -17,3 +17,16 @@ C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\
 C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmMain.resources
 C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.Properties.Resources.resources
 C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.csproj.GenerateResource.Cache
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\bin\Debug\AdvocateDigitalDiary.exe.config
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\bin\Debug\AdvocateDigitalDiary.exe
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\bin\Debug\AdvocateDigitalDiary.pdb
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.csprojResolveAssemblyReference.cache
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmCaseList.resources
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmCaseMaster.resources
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmCaseType.resources
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmCaseTypesList.resources
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.frmMain.resources
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.Properties.Resources.resources
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.csproj.GenerateResource.Cache
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.exe
+C:\Users\Nazneen\Documents\GitHub\Advocate-Digital-Diary\AdvocateDigitalDiary\obj\Debug\AdvocateDigitalDiary.pdb

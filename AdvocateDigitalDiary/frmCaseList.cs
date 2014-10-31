@@ -51,5 +51,15 @@ namespace AdvocateDigitalDiary
         {
 
         }
+
+        private void reportsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hearingDatesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

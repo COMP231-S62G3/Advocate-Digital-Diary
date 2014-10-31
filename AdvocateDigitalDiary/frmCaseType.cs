@@ -16,5 +16,40 @@ namespace AdvocateDigitalDiary
         {
             InitializeComponent();
         }
+
+        private void txtCaseTypeName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCaeTypeDescription_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblCaseTypeDescription_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblCaseTypeName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSaveCaseType_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCaseTypeCancle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

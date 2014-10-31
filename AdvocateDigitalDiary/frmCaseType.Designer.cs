@@ -43,11 +43,12 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sslabelCaseType});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 393);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 270);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(459, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(455, 22);
             this.statusStrip1.TabIndex = 11;
             this.statusStrip1.Text = "statusStrip1";
+            this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
             // 
             // sslabelCaseType
             // 
@@ -64,6 +65,7 @@
             this.btnCaseTypeCancle.TabIndex = 10;
             this.btnCaseTypeCancle.Text = "Close";
             this.btnCaseTypeCancle.UseVisualStyleBackColor = true;
+            this.btnCaseTypeCancle.Click += new System.EventHandler(this.btnCaseTypeCancle_Click);
             // 
             // btnSaveCaseType
             // 
@@ -73,6 +75,7 @@
             this.btnSaveCaseType.TabIndex = 8;
             this.btnSaveCaseType.Text = "Save";
             this.btnSaveCaseType.UseVisualStyleBackColor = true;
+            this.btnSaveCaseType.Click += new System.EventHandler(this.btnSaveCaseType_Click);
             // 
             // txtCaeTypeDescription
             // 
@@ -82,6 +85,7 @@
             this.txtCaeTypeDescription.Name = "txtCaeTypeDescription";
             this.txtCaeTypeDescription.Size = new System.Drawing.Size(288, 162);
             this.txtCaeTypeDescription.TabIndex = 7;
+            this.txtCaeTypeDescription.TextChanged += new System.EventHandler(this.txtCaeTypeDescription_TextChanged);
             // 
             // lblCaseTypeDescription
             // 
@@ -91,6 +95,7 @@
             this.lblCaseTypeDescription.Size = new System.Drawing.Size(60, 13);
             this.lblCaseTypeDescription.TabIndex = 9;
             this.lblCaseTypeDescription.Text = "Description";
+            this.lblCaseTypeDescription.Click += new System.EventHandler(this.lblCaseTypeDescription_Click);
             // 
             // txtCaseTypeName
             // 
@@ -99,6 +104,7 @@
             this.txtCaseTypeName.Name = "txtCaseTypeName";
             this.txtCaseTypeName.Size = new System.Drawing.Size(288, 20);
             this.txtCaseTypeName.TabIndex = 5;
+            this.txtCaseTypeName.TextChanged += new System.EventHandler(this.txtCaseTypeName_TextChanged);
             // 
             // lblCaseTypeName
             // 
@@ -108,12 +114,13 @@
             this.lblCaseTypeName.Size = new System.Drawing.Size(35, 13);
             this.lblCaseTypeName.TabIndex = 6;
             this.lblCaseTypeName.Text = "Name";
+            this.lblCaseTypeName.Click += new System.EventHandler(this.lblCaseTypeName_Click);
             // 
             // frmCaseType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 415);
+            this.ClientSize = new System.Drawing.Size(455, 292);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnCaseTypeCancle);
             this.Controls.Add(this.btnSaveCaseType);
@@ -122,7 +129,7 @@
             this.Controls.Add(this.txtCaseTypeName);
             this.Controls.Add(this.lblCaseTypeName);
             this.Name = "frmCaseType";
-            this.Text = "Case Type";
+            this.Text = "Case Types";
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);

@@ -85,6 +85,7 @@
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
             this.reportsToolStripMenuItem.Size = new System.Drawing.Size(68, 23);
             this.reportsToolStripMenuItem.Text = "&Reports";
+            this.reportsToolStripMenuItem.Click += new System.EventHandler(this.reportsToolStripMenuItem_Click);
             // 
             // documentsToolStripMenuItem2
             // 
@@ -126,6 +127,7 @@
             this.hearingDatesToolStripMenuItem.Name = "hearingDatesToolStripMenuItem";
             this.hearingDatesToolStripMenuItem.Size = new System.Drawing.Size(62, 23);
             this.hearingDatesToolStripMenuItem.Text = "&Details";
+            this.hearingDatesToolStripMenuItem.Click += new System.EventHandler(this.hearingDatesToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -136,7 +138,7 @@
             this.reportsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(870, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(637, 27);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -151,9 +153,9 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ssCaseList});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 461);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 361);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(870, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(637, 22);
             this.statusStrip1.TabIndex = 10;
             this.statusStrip1.Text = "statusStrip1";
             this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
@@ -242,7 +244,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(870, 483);
+            this.ClientSize = new System.Drawing.Size(637, 383);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnClose);
@@ -250,7 +252,7 @@
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.dgvCaseList);
             this.Name = "frmCaseList";
-            this.Text = "Cases";
+            this.Text = "Case List";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
