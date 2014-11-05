@@ -68,6 +68,12 @@
     <Compile Include="frmCaseTypesList.Designer.cs">
       <DependentUpon>frmCaseTypesList.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmHearings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHearings.Designer.cs">
+      <DependentUpon>frmHearings.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmJudge.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCaseTypesList.resx">
       <DependentUpon>frmCaseTypesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHearings.resx">
+      <DependentUpon>frmHearings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmJudge.resx">
       <DependentUpon>frmJudge.cs</DependentUpon>
