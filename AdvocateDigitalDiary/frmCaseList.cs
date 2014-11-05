@@ -52,7 +52,16 @@ namespace AdvocateDigitalDiary
 
         }
 
+<<<<<<< HEAD
+        private void reportsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hearingDatesToolStripMenuItem_Click(object sender, EventArgs e)
+=======
         private void frmCaseList_Load(object sender, EventArgs e)
+>>>>>>> origin/Design-Master-page
         {
 
         }

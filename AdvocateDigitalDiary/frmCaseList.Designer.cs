@@ -85,6 +85,7 @@
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
             this.reportsToolStripMenuItem.Size = new System.Drawing.Size(80, 27);
             this.reportsToolStripMenuItem.Text = "&Reports";
+            this.reportsToolStripMenuItem.Click += new System.EventHandler(this.reportsToolStripMenuItem_Click);
             // 
             // documentsToolStripMenuItem2
             // 
@@ -126,6 +127,7 @@
             this.hearingDatesToolStripMenuItem.Name = "hearingDatesToolStripMenuItem";
             this.hearingDatesToolStripMenuItem.Size = new System.Drawing.Size(73, 27);
             this.hearingDatesToolStripMenuItem.Text = "&Details";
+            this.hearingDatesToolStripMenuItem.Click += new System.EventHandler(this.hearingDatesToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -136,8 +138,12 @@
             this.reportsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+<<<<<<< HEAD
+            this.menuStrip1.Size = new System.Drawing.Size(637, 27);
+=======
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
             this.menuStrip1.Size = new System.Drawing.Size(1160, 31);
+>>>>>>> origin/Design-Master-page
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -152,10 +158,16 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ssCaseList});
+<<<<<<< HEAD
+            this.statusStrip1.Location = new System.Drawing.Point(0, 361);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(637, 22);
+=======
             this.statusStrip1.Location = new System.Drawing.Point(0, 569);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
             this.statusStrip1.Size = new System.Drawing.Size(1160, 25);
+>>>>>>> origin/Design-Master-page
             this.statusStrip1.TabIndex = 10;
             this.statusStrip1.Text = "statusStrip1";
             this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
@@ -248,7 +260,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(637, 383);
+=======
             this.ClientSize = new System.Drawing.Size(1160, 594);
+>>>>>>> origin/Design-Master-page
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnClose);
@@ -257,8 +273,12 @@
             this.Controls.Add(this.dgvCaseList);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmCaseList";
+<<<<<<< HEAD
+            this.Text = "Case List";
+=======
             this.Text = "Cases";
             this.Load += new System.EventHandler(this.frmCaseList_Load);
+>>>>>>> origin/Design-Master-page
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
