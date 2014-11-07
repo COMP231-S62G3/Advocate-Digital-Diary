@@ -52,6 +52,11 @@ namespace AdvocateDigitalDiary
 =======
         private void frmCaseType_Load(object sender, EventArgs e)
 >>>>>>> origin/Design-Master-page
+
+        private void frmCaseType_Load_1(object sender, EventArgs e)
+        {
+        
+        }
         {
 
         }

@@ -79,9 +79,10 @@
             // 
             // btnEditDefendent
             // 
-            this.btnEditDefendent.Location = new System.Drawing.Point(392, 270);
+            this.btnEditDefendent.Location = new System.Drawing.Point(523, 332);
+            this.btnEditDefendent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEditDefendent.Name = "btnEditDefendent";
-            this.btnEditDefendent.Size = new System.Drawing.Size(75, 23);
+            this.btnEditDefendent.Size = new System.Drawing.Size(100, 28);
             this.btnEditDefendent.TabIndex = 21;
             this.btnEditDefendent.Text = "Edit";
             this.btnEditDefendent.UseVisualStyleBackColor = true;
@@ -91,9 +92,10 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ssCaseMaster});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 450);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 556);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(832, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1076, 25);
             this.statusStrip1.TabIndex = 34;
             this.statusStrip1.Text = "statusStrip1";
             this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
@@ -101,14 +103,15 @@
             // ssCaseMaster
             // 
             this.ssCaseMaster.Name = "ssCaseMaster";
-            this.ssCaseMaster.Size = new System.Drawing.Size(16, 17);
+            this.ssCaseMaster.Size = new System.Drawing.Size(18, 20);
             this.ssCaseMaster.Text = "...";
             // 
             // btnEditPlaintiff
             // 
-            this.btnEditPlaintiff.Location = new System.Drawing.Point(11, 270);
+            this.btnEditPlaintiff.Location = new System.Drawing.Point(15, 332);
+            this.btnEditPlaintiff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEditPlaintiff.Name = "btnEditPlaintiff";
-            this.btnEditPlaintiff.Size = new System.Drawing.Size(75, 23);
+            this.btnEditPlaintiff.Size = new System.Drawing.Size(100, 28);
             this.btnEditPlaintiff.TabIndex = 20;
             this.btnEditPlaintiff.Text = "Edit";
             this.btnEditPlaintiff.UseVisualStyleBackColor = true;
@@ -117,18 +120,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(389, 98);
+            this.label2.Location = new System.Drawing.Point(519, 121);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 13);
+            this.label2.Size = new System.Drawing.Size(81, 17);
             this.label2.TabIndex = 19;
             this.label2.Text = "Defendants";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 98);
+            this.label1.Location = new System.Drawing.Point(9, 121);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.Size = new System.Drawing.Size(61, 17);
             this.label1.TabIndex = 18;
             this.label1.Text = "Plaintiffs";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -153,7 +158,8 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvDefendent.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvDefendent.Location = new System.Drawing.Point(392, 117);
+            this.dgvDefendent.Location = new System.Drawing.Point(523, 144);
+            this.dgvDefendent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvDefendent.MultiSelect = false;
             this.dgvDefendent.Name = "dgvDefendent";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -165,15 +171,16 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvDefendent.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvDefendent.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDefendent.Size = new System.Drawing.Size(355, 147);
+            this.dgvDefendent.Size = new System.Drawing.Size(473, 181);
             this.dgvDefendent.TabIndex = 17;
             this.dgvDefendent.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDefendent_CellContentClick);
             // 
             // btnPlantiffReset
             // 
-            this.btnPlantiffReset.Location = new System.Drawing.Point(674, 75);
+            this.btnPlantiffReset.Location = new System.Drawing.Point(899, 92);
+            this.btnPlantiffReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPlantiffReset.Name = "btnPlantiffReset";
-            this.btnPlantiffReset.Size = new System.Drawing.Size(75, 23);
+            this.btnPlantiffReset.Size = new System.Drawing.Size(100, 28);
             this.btnPlantiffReset.TabIndex = 14;
             this.btnPlantiffReset.Text = "Reset";
             this.btnPlantiffReset.UseVisualStyleBackColor = true;
@@ -181,9 +188,10 @@
             // 
             // btnAddPlantiff
             // 
-            this.btnAddPlantiff.Location = new System.Drawing.Point(567, 75);
+            this.btnAddPlantiff.Location = new System.Drawing.Point(756, 92);
+            this.btnAddPlantiff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddPlantiff.Name = "btnAddPlantiff";
-            this.btnAddPlantiff.Size = new System.Drawing.Size(75, 23);
+            this.btnAddPlantiff.Size = new System.Drawing.Size(100, 28);
             this.btnAddPlantiff.TabIndex = 13;
             this.btnAddPlantiff.Text = "Add";
             this.btnAddPlantiff.UseVisualStyleBackColor = true;
@@ -209,7 +217,8 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvPlantiff.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dgvPlantiff.Location = new System.Drawing.Point(11, 117);
+            this.dgvPlantiff.Location = new System.Drawing.Point(15, 144);
+            this.dgvPlantiff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvPlantiff.MultiSelect = false;
             this.dgvPlantiff.Name = "dgvPlantiff";
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -221,7 +230,7 @@
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvPlantiff.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvPlantiff.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPlantiff.Size = new System.Drawing.Size(361, 147);
+            this.dgvPlantiff.Size = new System.Drawing.Size(481, 181);
             this.dgvPlantiff.TabIndex = 15;
             this.dgvPlantiff.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPlantiff_CellContentClick);
             // 
@@ -232,55 +241,61 @@
             this.cboPlantiffPartyType.Items.AddRange(new object[] {
             "Plaintiff",
             "Defendent"});
-            this.cboPlantiffPartyType.Location = new System.Drawing.Point(69, 19);
+            this.cboPlantiffPartyType.Location = new System.Drawing.Point(92, 23);
+            this.cboPlantiffPartyType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboPlantiffPartyType.Name = "cboPlantiffPartyType";
-            this.cboPlantiffPartyType.Size = new System.Drawing.Size(183, 21);
+            this.cboPlantiffPartyType.Size = new System.Drawing.Size(243, 24);
             this.cboPlantiffPartyType.TabIndex = 6;
             this.cboPlantiffPartyType.SelectedIndexChanged += new System.EventHandler(this.cboPlantiffPartyType_SelectedIndexChanged);
             // 
             // lblplantiffID
             // 
             this.lblplantiffID.AutoSize = true;
-            this.lblplantiffID.Location = new System.Drawing.Point(8, 24);
+            this.lblplantiffID.Location = new System.Drawing.Point(11, 30);
+            this.lblplantiffID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblplantiffID.Name = "lblplantiffID";
-            this.lblplantiffID.Size = new System.Drawing.Size(55, 13);
+            this.lblplantiffID.Size = new System.Drawing.Size(73, 17);
             this.lblplantiffID.TabIndex = 13;
             this.lblplantiffID.Text = "PartyType";
             this.lblplantiffID.Click += new System.EventHandler(this.lblplantiffID_Click);
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(314, 72);
+            this.txtPhone.Location = new System.Drawing.Point(419, 89);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPhone.MaxLength = 20;
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(183, 20);
+            this.txtPhone.Size = new System.Drawing.Size(243, 22);
             this.txtPhone.TabIndex = 11;
             this.txtPhone.TextChanged += new System.EventHandler(this.txtPhone_TextChanged);
             // 
             // lblPlantiffPhone
             // 
             this.lblPlantiffPhone.AutoSize = true;
-            this.lblPlantiffPhone.Location = new System.Drawing.Point(258, 75);
+            this.lblPlantiffPhone.Location = new System.Drawing.Point(344, 92);
+            this.lblPlantiffPhone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlantiffPhone.Name = "lblPlantiffPhone";
-            this.lblPlantiffPhone.Size = new System.Drawing.Size(55, 13);
+            this.lblPlantiffPhone.Size = new System.Drawing.Size(71, 17);
             this.lblPlantiffPhone.TabIndex = 8;
             this.lblPlantiffPhone.Text = "Phone No";
             this.lblPlantiffPhone.Click += new System.EventHandler(this.lblPlantiffPhone_Click);
             // 
             // txtPin
             // 
-            this.txtPin.Location = new System.Drawing.Point(68, 72);
+            this.txtPin.Location = new System.Drawing.Point(91, 89);
+            this.txtPin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPin.MaxLength = 20;
             this.txtPin.Name = "txtPin";
-            this.txtPin.Size = new System.Drawing.Size(183, 20);
+            this.txtPin.Size = new System.Drawing.Size(243, 22);
             this.txtPin.TabIndex = 10;
             this.txtPin.TextChanged += new System.EventHandler(this.txtPin_TextChanged);
             // 
             // btnCaseCancel
             // 
-            this.btnCaseCancel.Location = new System.Drawing.Point(700, 427);
+            this.btnCaseCancel.Location = new System.Drawing.Point(933, 526);
+            this.btnCaseCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCaseCancel.Name = "btnCaseCancel";
-            this.btnCaseCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCaseCancel.Size = new System.Drawing.Size(100, 28);
             this.btnCaseCancel.TabIndex = 33;
             this.btnCaseCancel.Text = "Close";
             this.btnCaseCancel.UseVisualStyleBackColor = true;
@@ -288,9 +303,10 @@
             // 
             // btnSaveCase
             // 
-            this.btnSaveCase.Location = new System.Drawing.Point(601, 427);
+            this.btnSaveCase.Location = new System.Drawing.Point(801, 526);
+            this.btnSaveCase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSaveCase.Name = "btnSaveCase";
-            this.btnSaveCase.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveCase.Size = new System.Drawing.Size(100, 28);
             this.btnSaveCase.TabIndex = 32;
             this.btnSaveCase.Text = "Save";
             this.btnSaveCase.UseVisualStyleBackColor = true;
@@ -299,9 +315,10 @@
             // lblPlantiffPin
             // 
             this.lblPlantiffPin.AutoSize = true;
-            this.lblPlantiffPin.Location = new System.Drawing.Point(15, 75);
+            this.lblPlantiffPin.Location = new System.Drawing.Point(20, 92);
+            this.lblPlantiffPin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlantiffPin.Name = "lblPlantiffPin";
-            this.lblPlantiffPin.Size = new System.Drawing.Size(50, 13);
+            this.lblPlantiffPin.Size = new System.Drawing.Size(65, 17);
             this.lblPlantiffPin.TabIndex = 6;
             this.lblPlantiffPin.Text = "Pin Code";
             this.lblPlantiffPin.Click += new System.EventHandler(this.lblPlantiffPin_Click);
@@ -328,9 +345,11 @@
             this.groupBox1.Controls.Add(this.lblPlantiffCity);
             this.groupBox1.Controls.Add(this.txtName);
             this.groupBox1.Controls.Add(this.lblPlantiffName);
-            this.groupBox1.Location = new System.Drawing.Point(10, 113);
+            this.groupBox1.Location = new System.Drawing.Point(13, 139);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(766, 307);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1021, 378);
             this.groupBox1.TabIndex = 31;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Party Detail";
@@ -338,56 +357,62 @@
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(315, 46);
+            this.txtAddress.Location = new System.Drawing.Point(420, 57);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAddress.MaxLength = 50;
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(183, 20);
+            this.txtAddress.Size = new System.Drawing.Size(243, 22);
             this.txtAddress.TabIndex = 8;
             this.txtAddress.TextChanged += new System.EventHandler(this.txtAddress_TextChanged);
             // 
             // lblPlantiffAddress
             // 
             this.lblPlantiffAddress.AutoSize = true;
-            this.lblPlantiffAddress.Location = new System.Drawing.Point(264, 49);
+            this.lblPlantiffAddress.Location = new System.Drawing.Point(352, 60);
+            this.lblPlantiffAddress.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlantiffAddress.Name = "lblPlantiffAddress";
-            this.lblPlantiffAddress.Size = new System.Drawing.Size(45, 13);
+            this.lblPlantiffAddress.Size = new System.Drawing.Size(60, 17);
             this.lblPlantiffAddress.TabIndex = 4;
             this.lblPlantiffAddress.Text = "Address";
             this.lblPlantiffAddress.Click += new System.EventHandler(this.lblPlantiffAddress_Click);
             // 
             // txtCity
             // 
-            this.txtCity.Location = new System.Drawing.Point(567, 46);
+            this.txtCity.Location = new System.Drawing.Point(756, 57);
+            this.txtCity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCity.MaxLength = 20;
             this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(183, 20);
+            this.txtCity.Size = new System.Drawing.Size(243, 22);
             this.txtCity.TabIndex = 9;
             this.txtCity.TextChanged += new System.EventHandler(this.txtCity_TextChanged);
             // 
             // lblPlantiffCity
             // 
             this.lblPlantiffCity.AutoSize = true;
-            this.lblPlantiffCity.Location = new System.Drawing.Point(537, 49);
+            this.lblPlantiffCity.Location = new System.Drawing.Point(716, 60);
+            this.lblPlantiffCity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlantiffCity.Name = "lblPlantiffCity";
-            this.lblPlantiffCity.Size = new System.Drawing.Size(24, 13);
+            this.lblPlantiffCity.Size = new System.Drawing.Size(31, 17);
             this.lblPlantiffCity.TabIndex = 2;
             this.lblPlantiffCity.Text = "City";
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(68, 46);
+            this.txtName.Location = new System.Drawing.Point(91, 57);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtName.MaxLength = 20;
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(183, 20);
+            this.txtName.Size = new System.Drawing.Size(243, 22);
             this.txtName.TabIndex = 7;
             this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // lblPlantiffName
             // 
             this.lblPlantiffName.AutoSize = true;
-            this.lblPlantiffName.Location = new System.Drawing.Point(29, 49);
+            this.lblPlantiffName.Location = new System.Drawing.Point(39, 60);
+            this.lblPlantiffName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlantiffName.Name = "lblPlantiffName";
-            this.lblPlantiffName.Size = new System.Drawing.Size(35, 13);
+            this.lblPlantiffName.Size = new System.Drawing.Size(45, 17);
             this.lblPlantiffName.TabIndex = 0;
             this.lblPlantiffName.Text = "Name";
             this.lblPlantiffName.Click += new System.EventHandler(this.lblPlantiffName_Click);
@@ -396,18 +421,20 @@
             // 
             this.cboCaseJudgeId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCaseJudgeId.FormattingEnabled = true;
-            this.cboCaseJudgeId.Location = new System.Drawing.Point(324, 32);
+            this.cboCaseJudgeId.Location = new System.Drawing.Point(432, 39);
+            this.cboCaseJudgeId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboCaseJudgeId.Name = "cboCaseJudgeId";
-            this.cboCaseJudgeId.Size = new System.Drawing.Size(183, 21);
+            this.cboCaseJudgeId.Size = new System.Drawing.Size(243, 24);
             this.cboCaseJudgeId.TabIndex = 25;
             this.cboCaseJudgeId.SelectedIndexChanged += new System.EventHandler(this.cboCaseJudgeId_SelectedIndexChanged);
             // 
             // lblCaseJudgeId
             // 
             this.lblCaseJudgeId.AutoSize = true;
-            this.lblCaseJudgeId.Location = new System.Drawing.Point(282, 35);
+            this.lblCaseJudgeId.Location = new System.Drawing.Point(376, 43);
+            this.lblCaseJudgeId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCaseJudgeId.Name = "lblCaseJudgeId";
-            this.lblCaseJudgeId.Size = new System.Drawing.Size(36, 13);
+            this.lblCaseJudgeId.Size = new System.Drawing.Size(47, 17);
             this.lblCaseJudgeId.TabIndex = 30;
             this.lblCaseJudgeId.Text = "Judge";
             this.lblCaseJudgeId.Click += new System.EventHandler(this.lblCaseJudgeId_Click);
@@ -416,18 +443,20 @@
             // 
             this.cboCaseTypeId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCaseTypeId.FormattingEnabled = true;
-            this.cboCaseTypeId.Location = new System.Drawing.Point(79, 32);
+            this.cboCaseTypeId.Location = new System.Drawing.Point(105, 39);
+            this.cboCaseTypeId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboCaseTypeId.Name = "cboCaseTypeId";
-            this.cboCaseTypeId.Size = new System.Drawing.Size(183, 21);
+            this.cboCaseTypeId.Size = new System.Drawing.Size(243, 24);
             this.cboCaseTypeId.TabIndex = 24;
             this.cboCaseTypeId.SelectedIndexChanged += new System.EventHandler(this.cboCaseTypeId_SelectedIndexChanged);
             // 
             // lblCaseCaseTypeId
             // 
             this.lblCaseCaseTypeId.AutoSize = true;
-            this.lblCaseCaseTypeId.Location = new System.Drawing.Point(18, 35);
+            this.lblCaseCaseTypeId.Location = new System.Drawing.Point(24, 43);
+            this.lblCaseCaseTypeId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCaseCaseTypeId.Name = "lblCaseCaseTypeId";
-            this.lblCaseCaseTypeId.Size = new System.Drawing.Size(55, 13);
+            this.lblCaseCaseTypeId.Size = new System.Drawing.Size(72, 17);
             this.lblCaseCaseTypeId.TabIndex = 29;
             this.lblCaseCaseTypeId.Text = "CaseType";
             this.lblCaseCaseTypeId.Click += new System.EventHandler(this.lblCaseCaseTypeId_Click);
@@ -436,18 +465,20 @@
             // 
             this.cboCourtTypeId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCourtTypeId.FormattingEnabled = true;
-            this.cboCourtTypeId.Location = new System.Drawing.Point(577, 6);
+            this.cboCourtTypeId.Location = new System.Drawing.Point(769, 7);
+            this.cboCourtTypeId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboCourtTypeId.Name = "cboCourtTypeId";
-            this.cboCourtTypeId.Size = new System.Drawing.Size(183, 21);
+            this.cboCourtTypeId.Size = new System.Drawing.Size(243, 24);
             this.cboCourtTypeId.TabIndex = 22;
             this.cboCourtTypeId.SelectedIndexChanged += new System.EventHandler(this.cboCourtTypeId_SelectedIndexChanged);
             // 
             // lblCaseCourtId
             // 
             this.lblCaseCourtId.AutoSize = true;
-            this.lblCaseCourtId.Location = new System.Drawing.Point(536, 8);
+            this.lblCaseCourtId.Location = new System.Drawing.Point(715, 10);
+            this.lblCaseCourtId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCaseCourtId.Name = "lblCaseCourtId";
-            this.lblCaseCourtId.Size = new System.Drawing.Size(32, 13);
+            this.lblCaseCourtId.Size = new System.Drawing.Size(42, 17);
             this.lblCaseCourtId.TabIndex = 28;
             this.lblCaseCourtId.Text = "Court";
             this.lblCaseCourtId.Click += new System.EventHandler(this.lblCaseCourtId_Click);
@@ -455,65 +486,71 @@
             // DtCasesFileDate
             // 
             this.DtCasesFileDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DtCasesFileDate.Location = new System.Drawing.Point(324, 6);
+            this.DtCasesFileDate.Location = new System.Drawing.Point(432, 7);
+            this.DtCasesFileDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DtCasesFileDate.Name = "DtCasesFileDate";
-            this.DtCasesFileDate.Size = new System.Drawing.Size(183, 20);
+            this.DtCasesFileDate.Size = new System.Drawing.Size(243, 22);
             this.DtCasesFileDate.TabIndex = 21;
             this.DtCasesFileDate.ValueChanged += new System.EventHandler(this.DtCasesFileDate_ValueChanged);
             // 
             // lblCaseFileDate
             // 
             this.lblCaseFileDate.AutoSize = true;
-            this.lblCaseFileDate.Location = new System.Drawing.Point(269, 9);
+            this.lblCaseFileDate.Location = new System.Drawing.Point(359, 11);
+            this.lblCaseFileDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCaseFileDate.Name = "lblCaseFileDate";
-            this.lblCaseFileDate.Size = new System.Drawing.Size(49, 13);
+            this.lblCaseFileDate.Size = new System.Drawing.Size(64, 17);
             this.lblCaseFileDate.TabIndex = 26;
             this.lblCaseFileDate.Text = "File Date";
             this.lblCaseFileDate.Click += new System.EventHandler(this.lblCaseFileDate_Click);
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(577, 32);
+            this.txtDescription.Location = new System.Drawing.Point(769, 39);
+            this.txtDescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDescription.MaxLength = 100;
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(183, 75);
+            this.txtDescription.Size = new System.Drawing.Size(243, 91);
             this.txtDescription.TabIndex = 27;
             this.txtDescription.TextChanged += new System.EventHandler(this.txtDescription_TextChanged);
             // 
             // lblCaseDescription
             // 
             this.lblCaseDescription.AutoSize = true;
-            this.lblCaseDescription.Location = new System.Drawing.Point(511, 32);
+            this.lblCaseDescription.Location = new System.Drawing.Point(681, 39);
+            this.lblCaseDescription.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCaseDescription.Name = "lblCaseDescription";
-            this.lblCaseDescription.Size = new System.Drawing.Size(60, 13);
+            this.lblCaseDescription.Size = new System.Drawing.Size(79, 17);
             this.lblCaseDescription.TabIndex = 23;
             this.lblCaseDescription.Text = "Description";
             this.lblCaseDescription.Click += new System.EventHandler(this.lblCaseDescription_Click);
             // 
             // txtCaseTitle
             // 
-            this.txtCaseTitle.Location = new System.Drawing.Point(78, 6);
+            this.txtCaseTitle.Location = new System.Drawing.Point(104, 7);
+            this.txtCaseTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCaseTitle.MaxLength = 20;
             this.txtCaseTitle.Name = "txtCaseTitle";
-            this.txtCaseTitle.Size = new System.Drawing.Size(183, 20);
+            this.txtCaseTitle.Size = new System.Drawing.Size(243, 22);
             this.txtCaseTitle.TabIndex = 19;
             // 
             // lblCaseTitle
             // 
             this.lblCaseTitle.AutoSize = true;
-            this.lblCaseTitle.Location = new System.Drawing.Point(45, 9);
+            this.lblCaseTitle.Location = new System.Drawing.Point(60, 11);
+            this.lblCaseTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCaseTitle.Name = "lblCaseTitle";
-            this.lblCaseTitle.Size = new System.Drawing.Size(27, 13);
+            this.lblCaseTitle.Size = new System.Drawing.Size(35, 17);
             this.lblCaseTitle.TabIndex = 20;
             this.lblCaseTitle.Text = "Title";
             this.lblCaseTitle.Click += new System.EventHandler(this.lblCaseTitle_Click);
             // 
             // frmCaseMaster
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 472);
+            this.ClientSize = new System.Drawing.Size(1076, 581);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnCaseCancel);
             this.Controls.Add(this.btnSaveCase);
@@ -530,7 +567,7 @@
             this.Controls.Add(this.lblCaseDescription);
             this.Controls.Add(this.txtCaseTitle);
             this.Controls.Add(this.lblCaseTitle);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmCaseMaster";
             this.Text = "Case Details";
             this.Load += new System.EventHandler(this.frmCaseMaster_Load);
