@@ -48,10 +48,10 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ssLabel});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 495);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 460);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(578, 25);
+            this.statusStrip1.Size = new System.Drawing.Size(513, 25);
             this.statusStrip1.TabIndex = 18;
             this.statusStrip1.Text = "statusStrip1";
             this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
@@ -176,7 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 520);
+            this.ClientSize = new System.Drawing.Size(513, 485);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnAdd);
