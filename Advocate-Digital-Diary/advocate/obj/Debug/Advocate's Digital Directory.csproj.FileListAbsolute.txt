@@ -1,0 +1,154 @@
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.exe
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.pdb
+F:\20-9\Project\advocate\advocate\bin\Debug\advocate.exe
+F:\20-9\Project\advocate\advocate\bin\Debug\advocate.pdb
+F:\20-9\Project\advocate\advocate\bin\Debug\DAL.dll
+F:\20-9\Project\advocate\advocate\bin\Debug\NumericPro.pdb
+F:\20-9\Project\advocate\advocate\bin\Debug\DAL.pdb
+F:\20-9\Project\advocate\advocate\obj\Debug\ResolveAssemblyReference.cache
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmActs.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmCaseList.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmCaseMaster.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmCaseType.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmConfiguration.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmCourt.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmCourtList.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmDocument.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmHearings.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmJudge.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.FrmLogin.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.FrmReportViewer.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmMain.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmActsList.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmCaseTypesList.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmJudgesList.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmPayment.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmStatements.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.FrmUser.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.frmWitnesses.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.FrmWitnessList.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.Properties.Resources.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\advocate.UserList.resources
+F:\20-9\Project\advocate\advocate\obj\Debug\Advocate's Digital Directory.csproj.GenerateResource.Cache
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.exe
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.pdb
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\bin\Debug\advocate.exe
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\bin\Debug\advocate.pdb
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\bin\Debug\NumericPro.pdb
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\bin\Debug\DAL.pdb
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmActs.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmCaseList.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmCaseMaster.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmCaseType.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmConfiguration.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmCourt.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmCourtList.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmDocument.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmHearings.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmJudge.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.FrmLogin.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.FrmReportViewer.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmMain.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmActsList.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmCaseTypesList.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmJudgesList.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmPayment.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmStatements.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.FrmUser.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.frmWitnesses.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.FrmWitnessList.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.Properties.Resources.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\advocate.UserList.resources
+C:\Users\ACER\Desktop\Advocate's Digital Directory\advocate\obj\Debug\Advocate's Digital Directory.csproj.GenerateResource.Cache
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.pdb
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\Advocate's Digital Directory.csprojResolveAssemblyReference.cache
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmActs.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseList.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseMaster.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseType.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmConfiguration.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCourt.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCourtList.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmDocument.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmHearings.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmJudge.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.FrmLogin.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.FrmReportViewer.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmMain.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmActsList.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseTypesList.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmJudgesList.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmPayment.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmStatements.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.FrmUser.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmWitnesses.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.FrmWitnessList.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.Properties.Resources.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.UserList.resources
+E:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\Advocate's Digital Directory.csproj.GenerateResource.Cache
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.pdb
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmActs.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseList.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseMaster.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseType.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmConfiguration.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCourt.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCourtList.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmDocument.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmHearings.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmJudge.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.FrmLogin.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmMain.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmActsList.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseTypesList.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmJudgesList.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmPayment.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmStatements.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.FrmUser.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmWitnesses.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.FrmWitnessList.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.Properties.Resources.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.UserList.resources
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\Advocate's Digital Directory.csproj.GenerateResource.Cache
+M:\Training Project\Advocate's Digital Diary\advocate\bin\Debug\advocate.exe.config
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\Advocate's Digital Directory.csprojResolveAssemblyReference.cache
+M:\Training Project\Advocate's Digital Diary\advocate\bin\Debug\advocate.exe
+M:\Training Project\Advocate's Digital Diary\advocate\bin\Debug\advocate.pdb
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\advocate.exe
+M:\Training Project\Advocate's Digital Diary\advocate\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\bin\Debug\advocate.exe.config
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\advocate.exe
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\advocate.pdb
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\Advocate's Digital Directory.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseList.resources
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseMaster.resources
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseType.resources
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\advocate.FrmLogin.resources
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmMain.resources
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\advocate.frmCaseTypesList.resources
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\advocate.Properties.Resources.resources
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\advocate.UserList.resources
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\Advocate's Digital Directory.csproj.GenerateResource.Cache
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\bin\Debug\AdvocateDigitalDiary.exe.config
+C:\Users\Admin\Downloads\Advocate's Digital Diary\Advocate's Digital Diary\Advocate's Digital Diary\advocate\obj\Debug\AdvocateDigitalDiary.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\Advocate-Digital-Diary\advocate\bin\Debug\AdvocateDigitalDiary.exe.config
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\bin\Debug\AdvocateDigitalDiary.exe.config
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\Advocate's Digital Directory.csprojResolveAssemblyReference.cache
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\advocate.frmCaseList.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\advocate.frmCaseMaster.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\advocate.frmCaseType.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\AdvocateDigitalDiary.frmHearings.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\AdvocateDigitalDiary.frmJudge.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\AdvocateDigitalDiary.frmJudgesList.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\advocate.FrmLogin.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\advocate.frmMain.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\advocate.frmCaseTypesList.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\AdvocateDigitalDiary.frmStatements.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\AdvocateDigitalDiary.FrmUser.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\AdvocateDigitalDiary.frmWitnesses.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\AdvocateDigitalDiary.FrmWitnessList.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\AdvocateDigitalDiary.Properties.Resources.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\advocate.UserList.resources
+C:\Users\Patel\Downloads\Advocate-Digital-Diary-Develope-case-details-page\Advocate-Digital-Diary-Develope-case-details-page\advocate\obj\Debug\Advocate's Digital Directory.csproj.GenerateResource.Cache
+C:\Users\Patel\Documents\GitHub\Advocate-Digital-Diary\Advocate-Digital-Diary\advocate\bin\Debug\AdvocateDigitalDiary.exe.config

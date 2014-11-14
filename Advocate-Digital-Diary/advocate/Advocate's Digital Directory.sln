@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advocate's Digital Directory", "advocate\Advocate's Digital Directory.csproj", "{7DCF8336-3367-4AFE-A3F5-82DD5EF25B4C}"
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advocate's Digital Directory", "Advocate's Digital Directory.csproj", "{7DCF8336-3367-4AFE-A3F5-82DD5EF25B4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
