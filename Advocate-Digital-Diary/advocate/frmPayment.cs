@@ -3,13 +3,22 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace AdvocateDigitalDiary
+namespace advocate
 {
     public partial class frmPayment : Form
     {
+        public void StartPayment(int value)
+        {
+            
+        }
+        public enum eTranType
+        {
+            
+        }
         public frmPayment()
         {
             InitializeComponent();
@@ -17,80 +26,76 @@ namespace AdvocateDigitalDiary
 
         private void frmPayment_Load(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void cboMode_SelectedIndexChanged(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private bool ValidateData()
         {
-
+            if (txtAmount.Text.Length == 0)
+            {
+                sslabel.ForeColor = Color.Red;
+                sslabel.Text = " Please enter amount...";
+                return (false);
+            }
+            if (txtParticular.Text.Length == 0)
+            {
+                sslabel.ForeColor = Color.Red;
+                sslabel.Text = " Please enter a Particular No...";
+                return (false);
+            }
+            if (txtBank.Text.Length == 0)
+            {
+                sslabel.ForeColor = Color.Red;
+                sslabel.Text = " Please enter a valid Bank Name...";
+                return (false);
+            }
+            
+            
+            return (true);
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private bool ValidateData1()
         {
-
-        }
-
-        private void txtParticular_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtBank_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtAmount_TextChanged(object sender, EventArgs e)
-        {
-
+            if (txtAmount.Text.Length == 0)
+            {
+                sslabel.ForeColor = Color.Red;
+                sslabel.Text = " Please enter amount...";
+                return (false);
+            }
+           return (true);
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnRemove_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dgvPayment_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
-        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cboMode_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtAmount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
+
+        private void txtBank_TextChanged(object sender, EventArgs e)
         {
 
         }

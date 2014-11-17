@@ -202,24 +202,103 @@ namespace advocate
         private void witnessesToolStripMenuItem2_Click(object sender, EventArgs e)
         {
 
-           
-           
+            if (dgvCaseList.SelectedRows.Count > 0)
+            {
+
+                int a = Convert.ToInt32(dgvCaseList.SelectedRows[0].Cells[0].Value);
+
+                RptCaseWitness2 objRPT = new RptCaseWitness2();
+                DataTable tb = new MasterDataSet2.DTCasesDataTable();
+                DataTable tb1 = new MasterDataSet2.DTWitnessesDataTable();
+                
+
+                BLLCases objc = new BLLCases();
+                BllWitness objW = new BllWitness();
+
+                tb = objc.GetDetailForCase(a);
+                tb1 = objW.GetWitnesses(a);
+                
+                objRPT.SetDataSource(tb);
+                objRPT.Subreports[0].SetDataSource(tb1);
+                FrmReportViewer viewer = new FrmReportViewer();
+                viewer.StartReport(objRPT);
+            }
 
         }
 
         private void paymentsToolStripMenuItem2_Click(object sender, EventArgs e)
         {
+            if (dgvCaseList.SelectedRows.Count > 0)
+            {
+
+                int a = Convert.ToInt32(dgvCaseList.SelectedRows[0].Cells[0].Value);
+
+                RptCasePayment  objRPT = new RptCasePayment ();
+                DataTable tb = new MasterDataSet2.DTCasesDataTable();
+                DataTable tb1 = new MasterDataSet2.DTPaymentsDataTable();
+
+
+                BLLCases objc = new BLLCases();
+                BllPayment objP = new BllPayment();
+
+                tb = objc.GetDetailForCase(a);
+                tb1 = objP.GetPayment(a);
+
+                objRPT.SetDataSource(tb);
+                objRPT.Subreports[0].SetDataSource(tb1);
+                FrmReportViewer viewer = new FrmReportViewer();
+                viewer.StartReport(objRPT);
+            }
         }
 
         private void documentsToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            
-           
+            if (dgvCaseList.SelectedRows.Count > 0)
+            {
+
+                int a = Convert.ToInt32(dgvCaseList.SelectedRows[0].Cells[0].Value);
+
+                RptCaseDocument objRPT = new RptCaseDocument();
+                DataTable tb = new MasterDataSet2.DTCasesDataTable();
+                DataTable tb1 = new MasterDataSet2.DTDocumentsDataTable();
+
+
+                BLLCases objc = new BLLCases();
+                BllDocument objP = new BllDocument();
+
+                tb = objc.GetDetailForCase(a);
+                tb1 = objP.GetDocuments(a);
+
+                objRPT.SetDataSource(tb);
+                objRPT.Subreports[0].SetDataSource(tb1);
+                FrmReportViewer viewer = new FrmReportViewer();
+                viewer.StartReport(objRPT);
+            }
         }
 
         private void hearingDatesToolStripMenuItem3_Click(object sender, EventArgs e)
         {
-           
+            if (dgvCaseList.SelectedRows.Count > 0)
+            {
+
+                int a = Convert.ToInt32(dgvCaseList.SelectedRows[0].Cells[0].Value);
+
+                RptCaseHearingDates objRPT = new RptCaseHearingDates();
+                DataTable tb = new MasterDataSet2.DTCasesDataTable();
+                DataTable tb1 = new MasterDataSet2.DTHearingsDataTable();
+
+
+                BLLCases objc = new BLLCases();
+                BllHearingDate objP = new BllHearingDate();
+
+                tb = objc.GetDetailForCase(a);
+                tb1 = objP.GetDates(a);
+
+                objRPT.SetDataSource(tb);
+                objRPT.Subreports[0].SetDataSource(tb1);
+                FrmReportViewer viewer = new FrmReportViewer();
+                viewer.StartReport(objRPT);
+            }
         }
     }
 }

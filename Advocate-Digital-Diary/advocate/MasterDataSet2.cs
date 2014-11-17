@@ -1,5 +1,4 @@
-﻿namespace AdvocateDigitalDiary
-{
+﻿namespace advocate {
     
     
     public partial class MasterDataSet2 {

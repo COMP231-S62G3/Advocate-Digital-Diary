@@ -56,7 +56,16 @@ namespace advocate
 
         private void aToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            RptJudgeReport objRPT = new RptJudgeReport();
+            DataTable tb = new MasterDataSet.DTJudgesDataTable();
+
+            BLLjudge obj = new BLLjudge();
+            tb = obj.GetAllJudges();
+
+            objRPT.SetDataSource(tb);
+
+            FrmReportViewer viewer = new FrmReportViewer();
+            viewer.StartReport(objRPT);
         }
 
         private void TSShowJudge_Click(object sender, EventArgs e)
@@ -85,12 +94,29 @@ namespace advocate
 
         private void showAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            RptCourts objRPT = new RptCourts();
+            DataTable tb = new MasterDataSet.DTCourtsDataTable();
+
+            BLLcourt obj = new BLLcourt();
+            tb = obj.GetAllCourt();
+
+            objRPT.SetDataSource(tb);
+
+            FrmReportViewer viewer = new FrmReportViewer();
+            viewer.StartReport(objRPT);
         }
 
         private void reportToolStripMenuItem4_Click(object sender, EventArgs e)
         {
+            RptCase objRPT = new RptCase();
+            DataTable tb = new MasterDataSet2.DTCaseDataTable();
             
+            BLLCases obj = new BLLCases();
+            tb = obj.GetAllCases();
+            objRPT.SetDataSource(tb);
+
+            FrmReportViewer viewer = new FrmReportViewer();
+            viewer.StartReport(objRPT);
 
         }
 
@@ -122,13 +148,30 @@ namespace advocate
        
         private void actsToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-           
+            RptActs objRPT = new RptActs();
+            DataTable tb = new MasterDataSet.DTActsDataTable();
+
+            BLLActs obj = new BLLActs();
+            tb = obj.GetActs();
+            objRPT.SetDataSource(tb);
+
+            FrmReportViewer viewer = new FrmReportViewer();
+            viewer.StartReport(objRPT);
 
         }
 
         private void caseTypesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            RptCaseType objRPT = new RptCaseType();
+            DataTable tb = new MasterDataSet.DTCaseTypesDataTable();
+
+            BLLcasetype obj = new BLLcasetype();
+            tb = obj.GetAllCaseType();
+
+            objRPT.SetDataSource(tb);
+
+            FrmReportViewer view = new FrmReportViewer();
+            view.StartReport(objRPT);
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
