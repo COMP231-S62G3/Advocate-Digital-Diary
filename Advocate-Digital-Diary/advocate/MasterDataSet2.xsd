@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MasterDataSet2" targetNamespace="http://tempuri.org/MasterDataSet2.xsd" xmlns:mstns="http://tempuri.org/MasterDataSet2.xsd" xmlns="http://tempuri.org/MasterDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MasterDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MasterDataSet2" msprop:Generator_DataSetName="MasterDataSet2" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DTCase" msprop:Generator_UserTableName="DTCase" msprop:Generator_RowDeletedName="DTCaseRowDeleted" msprop:Generator_RowChangedName="DTCaseRowChanged" msprop:Generator_RowClassName="DTCaseRow" msprop:Generator_RowChangingName="DTCaseRowChanging" msprop:Generator_RowEvArgName="DTCaseRowChangeEvent" msprop:Generator_RowEvHandlerName="DTCaseRowChangeEventHandler" msprop:Generator_TableClassName="DTCaseDataTable" msprop:Generator_TableVarName="tableDTCase" msprop:Generator_RowDeletingName="DTCaseRowDeleting" msprop:Generator_TablePropName="DTCase">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CaseId" msprop:Generator_UserColumnName="CaseId" msprop:Generator_ColumnPropNameInRow="CaseId" msprop:Generator_ColumnVarNameInTable="columnCaseId" msprop:Generator_ColumnPropNameInTable="CaseIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInTable="TitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FileDate" msprop:Generator_UserColumnName="FileDate" msprop:Generator_ColumnPropNameInRow="FileDate" msprop:Generator_ColumnVarNameInTable="columnFileDate" msprop:Generator_ColumnPropNameInTable="FileDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Court_x0020_Name" msprop:Generator_UserColumnName="Court Name" msprop:Generator_ColumnPropNameInRow="Court_Name" msprop:Generator_ColumnVarNameInTable="columnCourt_Name" msprop:Generator_ColumnPropNameInTable="Court_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Judge_x0020_Name" msprop:Generator_UserColumnName="Judge Name" msprop:Generator_ColumnPropNameInRow="Judge_Name" msprop:Generator_ColumnVarNameInTable="columnJudge_Name" msprop:Generator_ColumnPropNameInTable="Judge_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Case_x0020_Type" msprop:Generator_UserColumnName="Case Type" msprop:Generator_ColumnPropNameInRow="Case_Type" msprop:Generator_ColumnVarNameInTable="columnCase_Type" msprop:Generator_ColumnPropNameInTable="Case_TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTWitnesses" msprop:Generator_UserTableName="DTWitnesses" msprop:Generator_RowDeletedName="DTWitnessesRowDeleted" msprop:Generator_RowChangedName="DTWitnessesRowChanged" msprop:Generator_RowClassName="DTWitnessesRow" msprop:Generator_RowChangingName="DTWitnessesRowChanging" msprop:Generator_RowEvArgName="DTWitnessesRowChangeEvent" msprop:Generator_RowEvHandlerName="DTWitnessesRowChangeEventHandler" msprop:Generator_TableClassName="DTWitnessesDataTable" msprop:Generator_TableVarName="tableDTWitnesses" msprop:Generator_RowDeletingName="DTWitnessesRowDeleting" msprop:Generator_TablePropName="DTWitnesses">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WitnessNo" msprop:Generator_UserColumnName="WitnessNo" msprop:Generator_ColumnVarNameInTable="columnWitnessNo" msprop:Generator_ColumnPropNameInRow="WitnessNo" msprop:Generator_ColumnPropNameInTable="WitnessNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_UserColumnName="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnPropNameInTable="CityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Pin_x0020_Code" msprop:Generator_UserColumnName="Pin Code" msprop:Generator_ColumnVarNameInTable="columnPin_Code" msprop:Generator_ColumnPropNameInRow="Pin_Code" msprop:Generator_ColumnPropNameInTable="Pin_CodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone_x0020_No" msprop:Generator_UserColumnName="Phone No" msprop:Generator_ColumnVarNameInTable="columnPhone_No" msprop:Generator_ColumnPropNameInRow="Phone_No" msprop:Generator_ColumnPropNameInTable="Phone_NoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="caseId" msprop:Generator_UserColumnName="caseId" msprop:Generator_ColumnVarNameInTable="columncaseId" msprop:Generator_ColumnPropNameInRow="caseId" msprop:Generator_ColumnPropNameInTable="caseIdColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTCases" msprop:Generator_UserTableName="DTCases" msprop:Generator_RowDeletedName="DTCasesRowDeleted" msprop:Generator_RowChangedName="DTCasesRowChanged" msprop:Generator_RowClassName="DTCasesRow" msprop:Generator_RowChangingName="DTCasesRowChanging" msprop:Generator_RowEvArgName="DTCasesRowChangeEvent" msprop:Generator_RowEvHandlerName="DTCasesRowChangeEventHandler" msprop:Generator_TableClassName="DTCasesDataTable" msprop:Generator_TableVarName="tableDTCases" msprop:Generator_RowDeletingName="DTCasesRowDeleting" msprop:Generator_TablePropName="DTCases">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CaseId" msprop:Generator_UserColumnName="CaseId" msprop:Generator_ColumnPropNameInRow="CaseId" msprop:Generator_ColumnVarNameInTable="columnCaseId" msprop:Generator_ColumnPropNameInTable="CaseIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInTable="TitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="File_x0020_Date" msprop:Generator_UserColumnName="File Date" msprop:Generator_ColumnPropNameInRow="File_Date" msprop:Generator_ColumnVarNameInTable="columnFile_Date" msprop:Generator_ColumnPropNameInTable="File_DateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Court_x0020_Name" msprop:Generator_UserColumnName="Court Name" msprop:Generator_ColumnPropNameInRow="Court_Name" msprop:Generator_ColumnVarNameInTable="columnCourt_Name" msprop:Generator_ColumnPropNameInTable="Court_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Judge_x0020_Name" msprop:Generator_UserColumnName="Judge Name" msprop:Generator_ColumnPropNameInRow="Judge_Name" msprop:Generator_ColumnVarNameInTable="columnJudge_Name" msprop:Generator_ColumnPropNameInTable="Judge_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Case_x0020_Type" msprop:Generator_UserColumnName="Case Type" msprop:Generator_ColumnPropNameInRow="Case_Type" msprop:Generator_ColumnVarNameInTable="columnCase_Type" msprop:Generator_ColumnPropNameInTable="Case_TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTPayments" msprop:Generator_UserTableName="DTPayments" msprop:Generator_RowDeletedName="DTPaymentsRowDeleted" msprop:Generator_RowChangedName="DTPaymentsRowChanged" msprop:Generator_RowClassName="DTPaymentsRow" msprop:Generator_RowChangingName="DTPaymentsRowChanging" msprop:Generator_RowEvArgName="DTPaymentsRowChangeEvent" msprop:Generator_RowEvHandlerName="DTPaymentsRowChangeEventHandler" msprop:Generator_TableClassName="DTPaymentsDataTable" msprop:Generator_TableVarName="tableDTPayments" msprop:Generator_RowDeletingName="DTPaymentsRowDeleting" msprop:Generator_TablePropName="DTPayments">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CaseId" msprop:Generator_UserColumnName="CaseId" msprop:Generator_ColumnPropNameInRow="CaseId" msprop:Generator_ColumnVarNameInTable="columnCaseId" msprop:Generator_ColumnPropNameInTable="CaseIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Mode" msprop:Generator_UserColumnName="Mode" msprop:Generator_ColumnPropNameInRow="Mode" msprop:Generator_ColumnVarNameInTable="columnMode" msprop:Generator_ColumnPropNameInTable="ModeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="ParticularNo" msprop:Generator_UserColumnName="ParticularNo" msprop:Generator_ColumnPropNameInRow="ParticularNo" msprop:Generator_ColumnVarNameInTable="columnParticularNo" msprop:Generator_ColumnPropNameInTable="ParticularNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Bank" msprop:Generator_UserColumnName="Bank" msprop:Generator_ColumnPropNameInRow="Bank" msprop:Generator_ColumnVarNameInTable="columnBank" msprop:Generator_ColumnPropNameInTable="BankColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PaymentNo" msprop:Generator_UserColumnName="PaymentNo" msprop:Generator_ColumnVarNameInTable="columnPaymentNo" msprop:Generator_ColumnPropNameInRow="PaymentNo" msprop:Generator_ColumnPropNameInTable="PaymentNoColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTDocuments" msprop:Generator_UserTableName="DTDocuments" msprop:Generator_RowDeletedName="DTDocumentsRowDeleted" msprop:Generator_TableClassName="DTDocumentsDataTable" msprop:Generator_RowChangedName="DTDocumentsRowChanged" msprop:Generator_RowClassName="DTDocumentsRow" msprop:Generator_RowChangingName="DTDocumentsRowChanging" msprop:Generator_RowEvArgName="DTDocumentsRowChangeEvent" msprop:Generator_RowEvHandlerName="DTDocumentsRowChangeEventHandler" msprop:Generator_TablePropName="DTDocuments" msprop:Generator_TableVarName="tableDTDocuments" msprop:Generator_RowDeletingName="DTDocumentsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReceivingDate" msprop:Generator_UserColumnName="ReceivingDate" msprop:Generator_ColumnPropNameInRow="ReceivingDate" msprop:Generator_ColumnVarNameInTable="columnReceivingDate" msprop:Generator_ColumnPropNameInTable="ReceivingDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DocumentNo" msprop:Generator_UserColumnName="DocumentNo" msprop:Generator_ColumnPropNameInRow="DocumentNo" msprop:Generator_ColumnVarNameInTable="columnDocumentNo" msprop:Generator_ColumnPropNameInTable="DocumentNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="caseid" msprop:Generator_UserColumnName="caseid" msprop:Generator_ColumnPropNameInRow="caseid" msprop:Generator_ColumnVarNameInTable="columncaseid" msprop:Generator_ColumnPropNameInTable="caseidColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTHearings" msprop:Generator_UserTableName="DTHearings" msprop:Generator_RowDeletedName="DTHearingsRowDeleted" msprop:Generator_TableClassName="DTHearingsDataTable" msprop:Generator_RowChangedName="DTHearingsRowChanged" msprop:Generator_RowClassName="DTHearingsRow" msprop:Generator_RowChangingName="DTHearingsRowChanging" msprop:Generator_RowEvArgName="DTHearingsRowChangeEvent" msprop:Generator_RowEvHandlerName="DTHearingsRowChangeEventHandler" msprop:Generator_TablePropName="DTHearings" msprop:Generator_TableVarName="tableDTHearings" msprop:Generator_RowDeletingName="DTHearingsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HearingDateNo" msprop:Generator_UserColumnName="HearingDateNo" msprop:Generator_ColumnPropNameInRow="HearingDateNo" msprop:Generator_ColumnVarNameInTable="columnHearingDateNo" msprop:Generator_ColumnPropNameInTable="HearingDateNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="caseId" msprop:Generator_UserColumnName="caseId" msprop:Generator_ColumnPropNameInRow="caseId" msprop:Generator_ColumnVarNameInTable="columncaseId" msprop:Generator_ColumnPropNameInTable="caseIdColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="DTCase_DTWitnesses" msdata:parent="DTCase" msdata:child="DTWitnesses" msdata:parentkey="CaseId" msdata:childkey="caseId" msprop:Generator_UserRelationName="DTCase_DTWitnesses" msprop:Generator_RelationVarName="relationDTCase_DTWitnesses" msprop:Generator_UserChildTable="DTWitnesses" msprop:Generator_UserParentTable="DTCase" msprop:Generator_ParentPropName="DTCaseRow" msprop:Generator_ChildPropName="GetDTWitnessesRows" />
+      <msdata:Relationship name="DTCases_DTWitnesses" msdata:parent="DTCases" msdata:child="DTWitnesses" msdata:parentkey="CaseId" msdata:childkey="caseId" msprop:Generator_UserRelationName="DTCases_DTWitnesses" msprop:Generator_RelationVarName="relationDTCases_DTWitnesses" msprop:Generator_UserChildTable="DTWitnesses" msprop:Generator_UserParentTable="DTCases" msprop:Generator_ParentPropName="DTCasesRow" msprop:Generator_ChildPropName="GetDTWitnessesRows" />
+      <msdata:Relationship name="DTCases_DTPayments" msdata:parent="DTCases" msdata:child="DTPayments" msdata:parentkey="CaseId" msdata:childkey="CaseId" msprop:Generator_UserRelationName="DTCases_DTPayments" msprop:Generator_RelationVarName="relationDTCases_DTPayments" msprop:Generator_UserChildTable="DTPayments" msprop:Generator_UserParentTable="DTCases" msprop:Generator_ParentPropName="DTCasesRow" msprop:Generator_ChildPropName="GetDTPaymentsRows" />
+      <msdata:Relationship name="DTCases_DTDocuments" msdata:parent="DTCases" msdata:child="DTDocuments" msdata:parentkey="CaseId" msdata:childkey="caseid" msprop:Generator_UserRelationName="DTCases_DTDocuments" msprop:Generator_RelationVarName="relationDTCases_DTDocuments" msprop:Generator_UserChildTable="DTDocuments" msprop:Generator_UserParentTable="DTCases" msprop:Generator_ParentPropName="DTCasesRow" msprop:Generator_ChildPropName="GetDTDocumentsRows" />
+      <msdata:Relationship name="DTCases_DTHearings" msdata:parent="DTCases" msdata:child="DTHearings" msdata:parentkey="CaseId" msdata:childkey="caseId" msprop:Generator_UserRelationName="DTCases_DTHearings" msprop:Generator_RelationVarName="relationDTCases_DTHearings" msprop:Generator_UserChildTable="DTHearings" msprop:Generator_UserParentTable="DTCases" msprop:Generator_ParentPropName="DTCasesRow" msprop:Generator_ChildPropName="GetDTHearingsRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

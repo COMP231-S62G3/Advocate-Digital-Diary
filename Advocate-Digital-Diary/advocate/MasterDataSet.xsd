@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MasterDataSet" targetNamespace="http://tempuri.org/MasterDataSet.xsd" xmlns:mstns="http://tempuri.org/MasterDataSet.xsd" xmlns="http://tempuri.org/MasterDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MasterDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MasterDataSet" msprop:Generator_DataSetName="MasterDataSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DTJudges" msprop:Generator_UserTableName="DTJudges" msprop:Generator_RowDeletedName="DTJudgesRowDeleted" msprop:Generator_RowChangedName="DTJudgesRowChanged" msprop:Generator_RowClassName="DTJudgesRow" msprop:Generator_RowChangingName="DTJudgesRowChanging" msprop:Generator_RowEvArgName="DTJudgesRowChangeEvent" msprop:Generator_RowEvHandlerName="DTJudgesRowChangeEventHandler" msprop:Generator_TableClassName="DTJudgesDataTable" msprop:Generator_TableVarName="tableDTJudges" msprop:Generator_RowDeletingName="DTJudgesRowDeleting" msprop:Generator_TablePropName="DTJudges">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_UserColumnName="Address" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInTable="AddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Gender" msprop:Generator_UserColumnName="Gender" msprop:Generator_ColumnPropNameInRow="Gender" msprop:Generator_ColumnVarNameInTable="columnGender" msprop:Generator_ColumnPropNameInTable="GenderColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone" msprop:Generator_UserColumnName="Phone" msprop:Generator_ColumnPropNameInRow="Phone" msprop:Generator_ColumnVarNameInTable="columnPhone" msprop:Generator_ColumnPropNameInTable="PhoneColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTCourts" msprop:Generator_UserTableName="DTCourts" msprop:Generator_RowDeletedName="DTCourtsRowDeleted" msprop:Generator_RowChangedName="DTCourtsRowChanged" msprop:Generator_RowClassName="DTCourtsRow" msprop:Generator_RowChangingName="DTCourtsRowChanging" msprop:Generator_RowEvArgName="DTCourtsRowChangeEvent" msprop:Generator_RowEvHandlerName="DTCourtsRowChangeEventHandler" msprop:Generator_TableClassName="DTCourtsDataTable" msprop:Generator_TableVarName="tableDTCourts" msprop:Generator_RowDeletingName="DTCourtsRowDeleting" msprop:Generator_TablePropName="DTCourts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnPropNameInTable="CityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTCaseTypes" msprop:Generator_UserTableName="DTCaseTypes" msprop:Generator_RowDeletedName="DTCaseTypesRowDeleted" msprop:Generator_RowChangedName="DTCaseTypesRowChanged" msprop:Generator_RowClassName="DTCaseTypesRow" msprop:Generator_RowChangingName="DTCaseTypesRowChanging" msprop:Generator_RowEvArgName="DTCaseTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="DTCaseTypesRowChangeEventHandler" msprop:Generator_TableClassName="DTCaseTypesDataTable" msprop:Generator_TableVarName="tableDTCaseTypes" msprop:Generator_RowDeletingName="DTCaseTypesRowDeleting" msprop:Generator_TablePropName="DTCaseTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTActs" msprop:Generator_UserTableName="DTActs" msprop:Generator_RowDeletedName="DTActsRowDeleted" msprop:Generator_RowChangedName="DTActsRowChanged" msprop:Generator_RowClassName="DTActsRow" msprop:Generator_RowChangingName="DTActsRowChanging" msprop:Generator_RowEvArgName="DTActsRowChangeEvent" msprop:Generator_RowEvHandlerName="DTActsRowChangeEventHandler" msprop:Generator_TableClassName="DTActsDataTable" msprop:Generator_TableVarName="tableDTActs" msprop:Generator_RowDeletingName="DTActsRowDeleting" msprop:Generator_TablePropName="DTActs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
