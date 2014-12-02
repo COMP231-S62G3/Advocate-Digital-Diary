@@ -141,7 +141,10 @@ namespace advocate
 
         private void btnClose_Click(object sender, EventArgs e)
         {
+            
+            //to exit from the page
             this.Close();
+
         }
     }
 }
