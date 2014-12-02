@@ -128,24 +128,6 @@
     <Compile Include="frmConfiguration.Designer.cs">
       <DependentUpon>frmConfiguration.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCourt.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCourt.Designer.cs">
-      <DependentUpon>frmCourt.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmCourtList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCourtList.Designer.cs">
-      <DependentUpon>frmCourtList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmDocument.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmDocument.Designer.cs">
-      <DependentUpon>frmDocument.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmHearings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -257,15 +239,6 @@
     <EmbeddedResource Include="frmConfiguration.resx">
       <DependentUpon>frmConfiguration.cs</DependentUpon>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmCourt.resx">
-      <DependentUpon>frmCourt.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmCourtList.resx">
-      <DependentUpon>frmCourtList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmDocument.resx">
-      <DependentUpon>frmDocument.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHearings.resx">
       <DependentUpon>frmHearings.cs</DependentUpon>
