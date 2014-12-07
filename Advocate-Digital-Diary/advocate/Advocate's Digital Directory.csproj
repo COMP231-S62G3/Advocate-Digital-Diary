@@ -97,6 +97,7 @@
     <Compile Include="BllPartyType.cs" />
     <Compile Include="BllPayment.cs" />
     <Compile Include="BllStatement.cs" />
+    <Compile Include="BLLUser.cs" />
     <Compile Include="BllWitness.cs" />
     <Compile Include="frmActs.cs">
       <SubType>Form</SubType>

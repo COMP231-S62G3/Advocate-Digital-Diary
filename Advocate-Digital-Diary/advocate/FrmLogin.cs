@@ -32,7 +32,7 @@ namespace advocate
 
             if (UserNo > 0)
             {
-                this.Close();
+               
             }
             else
             {
