@@ -97,6 +97,7 @@
     <Compile Include="BllPartyType.cs" />
     <Compile Include="BllPayment.cs" />
     <Compile Include="BllStatement.cs" />
+    <Compile Include="BLLUser.cs" />
     <Compile Include="BllWitness.cs" />
     <Compile Include="frmActs.cs">
       <SubType>Form</SubType>
@@ -238,6 +239,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserList.Designer.cs">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmActs.resx">
       <DependentUpon>frmActs.cs</DependentUpon>
       <SubType>Designer</SubType>
